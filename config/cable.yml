@@ -11,3 +11,4 @@ staging:
 production:
   adapter: redis
   url: redis://<%= ENV.fetch('REDIS_HOST', 'localhost') %>:<%= ENV.fetch('REDIS_PORT', 6379) %>
+  channel_prefix: od2_production
