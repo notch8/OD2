@@ -51,6 +51,7 @@ services:
       - HONEYCOMB_SERVICE=od2
       - HONEYCOMB_WRITEKEY=buzzzzzzzzzzzzzzzz
       - IIIF_SERVER_BASE_URL=http://localhost:8080/iiif
+      - RAILS_MAX_THREADS=10
       - RAILS_CACHE_STORE_URL=memcache
       - RAILS_ENV=development
       - RAILS_LOG_TO_STDOUT=true
